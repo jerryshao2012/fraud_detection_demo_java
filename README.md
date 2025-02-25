@@ -8,6 +8,17 @@ java    26112 jerryshao   77u  IPv6 0x2cc65a4a2bc4128      0t0  TCP *:http-alt (
 sudo kill -9 26112
 ```
 
+### Create a new repository on the command line
+```shell
+echo "# fraud_detection_demo_java" >> README.md
+git init
+git add .
+git commit -m "Add fraud detection demo"
+git branch -M main
+git remote add origin https://github.com/jerryshao2012/fraud_detection_demo_java.git
+git push -u origin main
+```
+
 ### Reference Documentation
 
 For further reference, please consider the following sections:
